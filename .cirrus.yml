@@ -1,15 +1,15 @@
 env:
   # Telegram
-  TG_CHAT_ID: ENCRYPTED[f4a52a14a5baaed992a39df45d27b8aa3fe47b2e78856931693e3601c25da96eb09a2f97edcf44d59193400000b2318d]
-  TG_TOKEN: ENCRYPTED[8093527cef0877e8c108a2924bc2a621d0e512e6bc37726e4997641147d4701f248112d497cbc84816aa6b2fc017eb7e]
+  TG_CHAT: "@DumprXDumps"
+  TG_TOKEN: ENCRYPTED[5f547b09e09023988e0ea334b4328cd83bea8e4eb4389f2365eab389e0df620ae2a1c0555edc0f32801cd4c594f4e2b1]
   
   # Gitlab
   PUSH_TO_GITLAB: true
   GITLAB_GROUP: Android-Dumps
-  GITLAB_TOKEN: ENCRYPTED[d8f6b08748bb4fc2ec1429a3cc07f68e10bb944147fca5e44db88e70520cfb8a8e4f9c34865802d5c6261a669982a1c3]
+  GITLAB_TOKEN: ENCRYPTED[99ff1b55524206ae9db506d7ac7ffa41e359124579a5756632c53d486f1a5321ab4a4a3e1c7b86c42d598912a2edf33d]
   
   # Private SSH Key
-  PRIV_SSH_KEY: ENCRYPTED[94a1ed2a2af3f136dfd2281877d1be1081f1aab3b29aa9fb743cadf5eacf670ea79773dff9b29ec48e04e674ecfa756a]
+  PRIV_SSH_KEY: ENCRYPTED[f089734f7284794ec3d78e4fb239fd4e5a9b4db19173fb406d17b1788af1b9cc50e6b4b5c0e439bd7b2bd9feced489a8]
 
 task:
   name: "Firmware Dump by DumprX"
@@ -35,7 +35,7 @@ task:
       - cd DumprX
       - echo "$GITLAB_TOKEN" > .gitlab_token
       - echo "$GITLAB_GROUP" > .gitlab_group
-      - echo "$TG_CHAT_ID" > .tg_chat
+      - echo "$TG_CHAT" > .tg_chat
       - echo "$TG_TOKEN" > .tg_token
       - sudo bash setup.sh
 
