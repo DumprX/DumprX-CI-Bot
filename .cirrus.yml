@@ -41,4 +41,4 @@ task:
 
   DumprX_script:
       - cd DumprX || echo "Already in the Directory"
-      - ./dumper.sh $(< ROM_URL.txt)
+      - ./dumper.sh $(< ${CIRRUS_WORKING_DIR}/ROM_URL.txt)
