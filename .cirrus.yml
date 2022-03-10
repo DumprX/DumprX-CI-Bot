@@ -1,0 +1,44 @@
+env:
+  # Telegram
+  TG_CHAT_ID: ENCRYPTED[f4a52a14a5baaed992a39df45d27b8aa3fe47b2e78856931693e3601c25da96eb09a2f97edcf44d59193400000b2318d]
+  TG_TOKEN: ENCRYPTED[8093527cef0877e8c108a2924bc2a621d0e512e6bc37726e4997641147d4701f248112d497cbc84816aa6b2fc017eb7e]
+  
+  # Gitlab
+  PUSH_TO_GITLAB: true
+  GITLAB_GROUP: Android-Dumps
+  GITLAB_TOKEN: ENCRYPTED[d8f6b08748bb4fc2ec1429a3cc07f68e10bb944147fca5e44db88e70520cfb8a8e4f9c34865802d5c6261a669982a1c3]
+  
+  # Private SSH Key
+  PRIV_SSH_KEY: ENCRYPTED[94a1ed2a2af3f136dfd2281877d1be1081f1aab3b29aa9fb743cadf5eacf670ea79773dff9b29ec48e04e674ecfa756a]
+
+task:
+  name: "Firmware Dump by DumprX"
+  timeout_in: 120m
+  container:
+      image: ghcr.io/sushrut1101/docker:latest
+      cpu: 2
+      memory: 8G
+
+  Clone_script:
+      - git clone --depth=1 --single-branch https://github.com/DumprX/DumprX.git
+  
+  Set-SSH-Keys_script:
+      - mkdir -p ~/.ssh
+      - ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+      - ssh-keyscan -t rsa gitlab.com >> ~/.ssh/known_hosts
+      - echo "$PRIV_SSH_KEY" > ~/.ssh/id_rsa
+      - chmod 600 ~/.ssh/id_rsa
+
+  Setup_script:
+      - git config --global user.name "Sushrut1101"
+      - git config --global user.email "guptasushrut@gmail.com"
+      - cd DumprX
+      - echo "$GITLAB_TOKEN" > .gitlab_token
+      - echo "$GITLAB_GROUP" > .gitlab_group
+      - echo "$TG_CHAT_ID" > .tg_chat
+      - echo "$TG_TOKEN" > .tg_token
+      - sudo bash setup.sh
+
+  DumprX_script:
+      - cd DumprX || echo "Already in the Directory"
+      - ./dumper.sh $(< ROM_URL.txt)
