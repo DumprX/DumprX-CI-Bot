@@ -13,6 +13,7 @@ env:
 
 task:
   name: "Firmware Dump by DumprX"
+  only_if: $CIRRUS_REPO_OWNER == 'DumprX'
   timeout_in: 120m
   container:
       image: ghcr.io/sushrut1101/docker:latest
