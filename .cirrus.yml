@@ -18,8 +18,8 @@ task:
   timeout_in: 120m
   container:
       image: ghcr.io/sushrut1101/docker:latest
-      cpu: 2
-      memory: 8G
+      cpu: 4
+      memory: 16G
 
   Clone_script:
       - git clone --depth=1 --single-branch https://github.com/DumprX/DumprX.git
