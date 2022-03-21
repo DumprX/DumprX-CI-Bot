@@ -16,3 +16,5 @@ Dump Android ROMs/Firmwares Online, via a PR, for free!
 - Only Dump Your Firmwares by making a PR.
 - The Dumping Process (and pushing) takes time (Usually 10-30 Minutes)(Depending Upon your ROM). So Please Be Patient.
 - Out Telegram Support Chat: [@DumprXChat](https://t.me/DumprXChat)
+
+t
