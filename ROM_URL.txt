@@ -1,1 +1,1 @@
-https://bigota.d.miui.com/V13.0.5.0.SKGMIXM/mojito_global_images_V13.0.5.0.SKGMIXM_20220209.0000.00_12.0_global_36ff0ca7ff.tgz
+https://bigota.d.miui.com/V11.0.2.0.OCKMIXM/riva_global_images_V11.0.2.0.OCKMIXM_20191106.0000.00_8.1_global_605da3d46d.tgz
