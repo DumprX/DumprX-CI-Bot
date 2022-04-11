@@ -3,6 +3,9 @@ env:
   TG_CHAT: "@DumprXDumps"
   TG_TOKEN: ENCRYPTED[5f547b09e09023988e0ea334b4328cd83bea8e4eb4389f2365eab389e0df620ae2a1c0555edc0f32801cd4c594f4e2b1]
   
+  # Github Token (For Private Beta Repo)
+  GITHUB_TOKEN: ENCRYPTED[b4f039cdeead18814cc7e8d0c0356687093d8afe13a037342aaa61c206e021466c3819b9dcf7d6c7e05031245d8d2363]
+
   # Gitlab
   PUSH_TO_GITLAB: true
   GITLAB_GROUP: Android-Dumps
