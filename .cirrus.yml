@@ -22,7 +22,9 @@ task:
       memory: 16G
 
   Clone_script:
-      - git clone --depth=1 --single-branch https://github.com/DumprX/DumprX.git
+      - git config --global credential.helper store
+      - echo "https://Sushrut1101:${GITHUB_TOKEN}@github.com" >> ~/.git-credentials
+      - git clone --depth=1 --single-branch https://github.com/DumprX/DumprX-Dev.git DumprX
   
   Set-SSH-Keys_script:
       - mkdir -p ~/.ssh
