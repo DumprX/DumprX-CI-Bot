@@ -1,1 +1,1 @@
-https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZB601KL/UL-ASUS_X00T-WW-17.2017.2012.438-user.zip
+https://android.googleapis.com/packages/ota-api/package/6a2514ae18c3d6bba3f867f737fe3e4a7593f24f.zip
