@@ -1,1 +1,1 @@
-https://dl.google.com/developers/android/tm/images/factory/raven-tpp2.220218.010-factory-79bf5fe3.zip
+https://dl.google.com/dl/android/aosp/raven-sp2a.220505.002-factory-e1266508.zip
