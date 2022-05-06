@@ -1,1 +1,1 @@
-https://dl.google.com/dl/android/aosp/raven-sp2a.220505.002-factory-e1266508.zip
+https://dl.google.com/dl/android/aosp/redfin-sp2a.220505.002-factory-7fe11c77.zip
