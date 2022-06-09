@@ -1,1 +1,1 @@
-https://dl.google.com/dl/android/aosp/sargo-sp2a.220505.006-factory-978959e1.zip
+https://dl.google.com/dl/android/aosp/bonito-sp2a.220505.006-factory-5adf2317.zip
