@@ -1,7 +1,7 @@
 env:
   # Telegram
   TG_CHAT: "@DumprXDumps"
-  TG_TOKEN: ENCRYPTED[5f547b09e09023988e0ea334b4328cd83bea8e4eb4389f2365eab389e0df620ae2a1c0555edc0f32801cd4c594f4e2b1]
+  TG_TOKEN: ENCRYPTED[a73a53b94a14e3cb110744a6edd108475494c5eff22d1881b407ae09d6a4fef90e8579a1b8f8a7286a9452c081f94894]
   
   # Gitlab
   PUSH_TO_GITLAB: true
@@ -17,7 +17,7 @@ task:
   skip: $CIRRUS_BRANCH == 'main'
   timeout_in: 120m
   container:
-      image: ghcr.io/sushrut1101/docker:arch
+      image: ghcr.io/dumprx/docker:latest
       cpu: 4
       memory: 16G
 
