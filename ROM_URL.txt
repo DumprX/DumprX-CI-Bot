@@ -1,1 +1,1 @@
-https://bigota.d.miui.com/V12.5.4.0.RJWINXM/curtana_in_global_images_V12.5.4.0.RJWINXM_20220129.0000.00_11.0_in_85f43863e5.tgz
+https://github.com/realme-trinket-organization/releases/releases/download/lineage-19.1-FORK-20220530-realme_trinket/lineage-19.1-FORK-vanilla-20220530-0015-realme_trinket.zip
