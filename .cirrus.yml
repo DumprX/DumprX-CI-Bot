@@ -5,11 +5,12 @@ env:
   
   # Gitlab
   PUSH_TO_GITLAB: true
-  GITLAB_GROUP: Android-Dumps
-  GITLAB_TOKEN: ENCRYPTED[99ff1b55524206ae9db506d7ac7ffa41e359124579a5756632c53d486f1a5321ab4a4a3e1c7b86c42d598912a2edf33d]
+  GITLAB_GROUP: DumprX
+  GITLAB_TOKEN: ENCRYPTED[9df452a061a97524a9994517e5fc5bbc4ebbb62aff325ec486ae4395276ba8561ca921bcd0dac76c0f2edff77808b6d8]
+  GITLAB_INSTANCE: www.opencode.net
   
   # Private SSH Key
-  PRIV_SSH_KEY: ENCRYPTED[f089734f7284794ec3d78e4fb239fd4e5a9b4db19173fb406d17b1788af1b9cc50e6b4b5c0e439bd7b2bd9feced489a8]
+  PRIV_SSH_KEY: ENCRYPTED[6642ded05f455c0aec06fb52c7c7c9981de3d199832ca90b8270392a3b2784a77c34922104b79c4b2312b16de6e0b055]
 
 task:
   name: "Firmware Dump by DumprX"
@@ -28,6 +29,7 @@ task:
       - mkdir -p ~/.ssh
       - ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
       - ssh-keyscan -t rsa gitlab.com >> ~/.ssh/known_hosts
+      - ssh-keyscan -t rsa $GITLAB_INSTANCE >> ~/.ssh/known_hosts
       - echo "$PRIV_SSH_KEY" > ~/.ssh/id_rsa
       - chmod 600 ~/.ssh/id_rsa
 
