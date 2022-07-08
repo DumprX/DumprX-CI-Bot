@@ -5,11 +5,12 @@ env:
   
   # Gitlab
   PUSH_TO_GITLAB: true
-  GITLAB_GROUP: Android-Dumps
-  GITLAB_TOKEN: ENCRYPTED[99ff1b55524206ae9db506d7ac7ffa41e359124579a5756632c53d486f1a5321ab4a4a3e1c7b86c42d598912a2edf33d]
+  GITLAB_GROUP: DumprX
+  GITLAB_TOKEN: ENCRYPTED[183625527b454b0fa2bf89bb82382289aaa756d93cc5ee809a99fb1c0c0b9d1877aa1482926afdd747eea967a5ef6241]
+  GITLAB_INSTANCE: gitgud.io
   
   # Private SSH Key
-  PRIV_SSH_KEY: ENCRYPTED[f089734f7284794ec3d78e4fb239fd4e5a9b4db19173fb406d17b1788af1b9cc50e6b4b5c0e439bd7b2bd9feced489a8]
+  PRIV_SSH_KEY: ENCRYPTED[6642ded05f455c0aec06fb52c7c7c9981de3d199832ca90b8270392a3b2784a77c34922104b79c4b2312b16de6e0b055]
 
 task:
   name: "Firmware Dump by DumprX"
@@ -39,6 +40,7 @@ task:
       - echo "$GITLAB_GROUP" > .gitlab_group
       - echo "$TG_CHAT" > .tg_chat
       - echo "$TG_TOKEN" > .tg_token
+      - echo "$GITLAB_INSTANCE" > .gitlab_instance
       - sudo bash setup.sh
 
   DumprX_script:
