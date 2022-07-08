@@ -29,7 +29,7 @@ task:
       - mkdir -p ~/.ssh
       - ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
       - ssh-keyscan -t rsa gitlab.com >> ~/.ssh/known_hosts
-      - ssh-keyscan -t rsa gitgub.io >> ~/.ssh/known_hosts
+      - ssh-keyscan -t rsa gitgud.io >> ~/.ssh/known_hosts
       - echo "$PRIV_SSH_KEY" > ~/.ssh/id_rsa
       - chmod 600 ~/.ssh/id_rsa
 
