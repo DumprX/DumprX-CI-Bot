@@ -41,6 +41,7 @@ task:
       - echo "$GITLAB_GROUP" > .gitlab_group
       - echo "$TG_CHAT" > .tg_chat
       - echo "$TG_TOKEN" > .tg_token
+      - echo "$GITLAB_INSTANCE" > .gitlab_instance
       - sudo bash setup.sh
 
   DumprX_script:
