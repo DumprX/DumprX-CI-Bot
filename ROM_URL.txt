@@ -1,1 +1,1 @@
-https://bigota.d.miui.com/V12.5.4.0.RJWINXM/curtana_in_global_images_V12.5.4.0.RJWINXM_20220129.0000.00_11.0_in_85f43863e5.tgz
+https://cdn.cnbj1.fds.api.mi-img.com/build/2.05.06.native.user.dpp.gl/zeus_dpp_android_global_images_2.05.06.native.user.dpp.gl_20220506.0000.00_13.0_139787374f.tgz?GalaxyAccessKeyId=5151729087601&Expires=9223372036854775807&Signature=awAcsldFDDFsHpnW5MuuEkU+mnA=
