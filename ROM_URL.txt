@@ -1,1 +1,1 @@
-https://bigota.d.miui.com/V12.5.4.0.RJWINXM/curtana_in_global_images_V12.5.4.0.RJWINXM_20220129.0000.00_11.0_in_85f43863e5.tgz
+https://github.com/ivanmeler/ota_provider/releases/download/hero2lte_lineage-19.1_1657201843/lineage-19.1-20220707-UNOFFICIAL-hero2lte.zip
