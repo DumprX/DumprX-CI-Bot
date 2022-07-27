@@ -1,1 +1,1 @@
-https://bigota.d.miui.com/V12.5.4.0.RJWINXM/curtana_in_global_images_V12.5.4.0.RJWINXM_20220129.0000.00_11.0_in_85f43863e5.tgz
+https://rsd-prod-secure.s3.amazonaws.com/SOFIAP_AO_EEA_S0PRS32.44-11-10-2-10_subsidy-DEFAULT_regulatory-XT2043-7-EEA_CFC.xml.zip?AWSAccessKeyId=AKIAIMVHGYWJWQTJEM5Q&Expires=1659088907&Signature=mvPWCZ0d0OKkDmGybPiiiUAx2Zg%3D
