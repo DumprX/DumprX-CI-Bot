@@ -1,1 +1,1 @@
-https://bigota.d.miui.com/V12.5.4.0.RJWINXM/curtana_in_global_images_V12.5.4.0.RJWINXM_20220129.0000.00_11.0_in_85f43863e5.tgz
+http://fota-secure-dn.ospserver.net/firmware/EUX/SM-S901B/nspx/fc255a2727054ac7bf3cb2c1a43aa0d0.bin?px-time=633c1023&px-hash=0ddb5c345f951a2fb1f9173aba874c67&px-wid=7489926-WSA220805105114&px-wctime=2022-08-05%2010:51:14&px-unum=&px-nb=UGtezEZ854jbmFcvWGxLEA==
