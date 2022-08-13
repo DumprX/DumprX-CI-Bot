@@ -1,1 +1,1 @@
-https://bigota.d.miui.com/V12.5.4.0.RJWINXM/curtana_in_global_images_V12.5.4.0.RJWINXM_20220129.0000.00_11.0_in_85f43863e5.tgz
+https://github.com/arian-ota/ota/releases/download/19.1-davinci-904b0a5e/lineage-19.1-20220511-UNOFFICIAL-davinci.zip
