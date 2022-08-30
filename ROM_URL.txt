@@ -1,1 +1,1 @@
-https://mirrors.lolinet.com/firmware/moto/guamp/official/RETAR/XT2083-1_GUAMP_RETAR_11_RPXS31.Q2-58-17-4-8_subsidy-DEFAULT_regulatory-XT2083-1-CNC-SAR_CFC.xml.zip
+https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-WEEKLY-RELEASES/22.8.25/xiaomi.eu_multi_HMK40_POCOF3_22.8.25_v13-12.zip/download
