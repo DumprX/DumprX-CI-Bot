@@ -6,8 +6,7 @@ env:
   # Gitlab
   PUSH_TO_GITLAB: true
   GITLAB_GROUP: dumperx
-  GITLAB_TOKEN: ENCRYPTED[!64816658a39387ca19f5be2d94bc44f32b8e4faa3ecfe9e780684c4ef5cec1edc9067ddabb12671f04373559ccd9073d!]
-  GITLAB_INSTANCE: www.gitlab.com
+  GITLAB_TOKEN: ENCRYPTED[!e7716799e52e779df00b0bdbd419e7c95335041c8a505f3b6134ef6e1e930565c1affa7654657aa9c14d195d06acaf0d!]
   
   # Private SSH Key
   PRIV_SSH_KEY: ENCRYPTED[!b0c4d26d233b48b9cbe50341843177c3bba03e043780c169f42b6b2d52b12ea2a1e426b9961d66667473e05a7eed9bfb!]
@@ -26,7 +25,6 @@ task:
       - mkdir -p ~/.ssh
       - ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
       - ssh-keyscan -t rsa gitlab.com >> ~/.ssh/known_hosts
-      - ssh-keyscan -t rsa $GITLAB_INSTANCE >> ~/.ssh/known_hosts
       - echo "$PRIV_SSH_KEY" > ~/.ssh/id_rsa
       - chmod 600 ~/.ssh/id_rsa
 
@@ -38,7 +36,6 @@ task:
       - echo "$GITLAB_GROUP" > .gitlab_group
       - echo "$TG_CHAT" > .tg_chat
       - echo "$TG_TOKEN" > .tg_token
-      - echo "$GITLAB_INSTANCE" > .gitlab_instance
       - sudo bash setup.sh
 
   DumprX_script:
