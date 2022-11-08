@@ -1,22 +1,18 @@
 env:
   # Telegram
-  TG_CHAT: "@DumprXDumps"
-  TG_TOKEN: ENCRYPTED[a73a53b94a14e3cb110744a6edd108475494c5eff22d1881b407ae09d6a4fef90e8579a1b8f8a7286a9452c081f94894]
+  TG_CHAT: "@kaidumperx"
+  TG_TOKEN: ENCRYPTED[!9277e09b33a9f0f63c6a0a87de01220561eb6ca7dc0dc3593eb1c41437fab3d5c89376aa33c0b02320eb798416818beb!]
   
   # Gitlab
   PUSH_TO_GITLAB: true
-  GITLAB_GROUP: DumprX
-  GITLAB_TOKEN: ENCRYPTED[9df452a061a97524a9994517e5fc5bbc4ebbb62aff325ec486ae4395276ba8561ca921bcd0dac76c0f2edff77808b6d8]
-  GITLAB_INSTANCE: www.opencode.net
+  GITLAB_GROUP: dumperx
+  GITLAB_TOKEN: ENCRYPTED[!64816658a39387ca19f5be2d94bc44f32b8e4faa3ecfe9e780684c4ef5cec1edc9067ddabb12671f04373559ccd9073d!]
+  GITLAB_INSTANCE: www.gitlab.com
   
   # Private SSH Key
-  PRIV_SSH_KEY: ENCRYPTED[6642ded05f455c0aec06fb52c7c7c9981de3d199832ca90b8270392a3b2784a77c34922104b79c4b2312b16de6e0b055]
-
+  PRIV_SSH_KEY: ENCRYPTED[!b0c4d26d233b48b9cbe50341843177c3bba03e043780c169f42b6b2d52b12ea2a1e426b9961d66667473e05a7eed9bfb!]
 task:
-  name: "Firmware Dump by DumprX"
-  only_if: $CIRRUS_REPO_OWNER == 'DumprX'
-  skip: $CIRRUS_BRANCH == 'main'
-  auto_cancellation: $CIRRUS_BRANCH == 'autocancel'
+  name: "Firmware Dump by kaiverse"
   timeout_in: 120m
   container:
       image: ghcr.io/sushrut1101/docker:arch
@@ -35,8 +31,8 @@ task:
       - chmod 600 ~/.ssh/id_rsa
 
   Setup_script:
-      - git config --global user.name "Sushrut1101"
-      - git config --global user.email "guptasushrut@gmail.com"
+      - git config --global user.name "Tomy Prasetyo"
+      - git config --global user.email "tomy.prs25@gmail.com"
       - cd DumprX
       - echo "$GITLAB_TOKEN" > .gitlab_token
       - echo "$GITLAB_GROUP" > .gitlab_group
