@@ -1,22 +1,17 @@
 env:
   # Telegram
-  TG_CHAT: "@DumprXDumps"
-  TG_TOKEN: ENCRYPTED[a73a53b94a14e3cb110744a6edd108475494c5eff22d1881b407ae09d6a4fef90e8579a1b8f8a7286a9452c081f94894]
+  TG_CHAT: "@kaidumperx"
+  TG_TOKEN: ENCRYPTED[!9277e09b33a9f0f63c6a0a87de01220561eb6ca7dc0dc3593eb1c41437fab3d5c89376aa33c0b02320eb798416818beb!]
   
   # Gitlab
   PUSH_TO_GITLAB: true
-  GITLAB_GROUP: DumprX
-  GITLAB_TOKEN: ENCRYPTED[9df452a061a97524a9994517e5fc5bbc4ebbb62aff325ec486ae4395276ba8561ca921bcd0dac76c0f2edff77808b6d8]
-  GITLAB_INSTANCE: www.opencode.net
+  GITLAB_GROUP: dumperx
+  GITLAB_TOKEN: ENCRYPTED[!e7716799e52e779df00b0bdbd419e7c95335041c8a505f3b6134ef6e1e930565c1affa7654657aa9c14d195d06acaf0d!]
   
   # Private SSH Key
-  PRIV_SSH_KEY: ENCRYPTED[6642ded05f455c0aec06fb52c7c7c9981de3d199832ca90b8270392a3b2784a77c34922104b79c4b2312b16de6e0b055]
-
+  PRIV_SSH_KEY: ENCRYPTED[!82409b534cd04d7f3d87853474e842022137c953751f19ab5a891447f6142c0f89e6537fb8f3979314529d04a6221aad!]
 task:
-  name: "Firmware Dump by DumprX"
-  only_if: $CIRRUS_REPO_OWNER == 'DumprX'
-  skip: $CIRRUS_BRANCH == 'main'
-  auto_cancellation: $CIRRUS_BRANCH == 'autocancel'
+  name: "Firmware Dump by kaiverse"
   timeout_in: 120m
   container:
       image: ghcr.io/sushrut1101/docker:arch
@@ -30,19 +25,17 @@ task:
       - mkdir -p ~/.ssh
       - ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
       - ssh-keyscan -t rsa gitlab.com >> ~/.ssh/known_hosts
-      - ssh-keyscan -t rsa $GITLAB_INSTANCE >> ~/.ssh/known_hosts
       - echo "$PRIV_SSH_KEY" > ~/.ssh/id_rsa
       - chmod 600 ~/.ssh/id_rsa
 
   Setup_script:
-      - git config --global user.name "Sushrut1101"
-      - git config --global user.email "guptasushrut@gmail.com"
+      - git config --global user.name "Tomy Prasetyo"
+      - git config --global user.email "tomy.prs25@gmail.com"
       - cd DumprX
       - echo "$GITLAB_TOKEN" > .gitlab_token
       - echo "$GITLAB_GROUP" > .gitlab_group
       - echo "$TG_CHAT" > .tg_chat
       - echo "$TG_TOKEN" > .tg_token
-      - echo "$GITLAB_INSTANCE" > .gitlab_instance
       - sudo bash setup.sh
 
   DumprX_script:
