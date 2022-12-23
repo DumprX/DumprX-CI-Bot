@@ -1,1 +1,1 @@
-https://mirrors.lolinet.com/firmware/motorola/liber/official/RETIN/XT2067-3_LIBER_RETIN_10_QPIS30.73-33-13_subsidy-DEFAULT_regulatory-XT2067-3_CFC.xml.zip
+https://mirrors.lolinet.com/firmware/motorola/liber/official/RETIN/XT2067-3_LIBER_RETIN_11_RPIS31.Q2-42-25-3_subsidy-DEFAULT_regulatory-XT2067-3_CFC.xml.zip
