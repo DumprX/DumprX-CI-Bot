@@ -1,1 +1,1 @@
-https://rsd-prod-secure.s3.amazonaws.com/KYOTO_RETAIL_S2RKS32.92-11-21-4_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip?AWSAccessKeyId=AKIAIMVHGYWJWQTJEM5Q&Expires=1669802471&Signature=eFhUsR%2FAX4cZXaNctrcgZeEXtDQ%3D
+https://rsd-prod-secure.s3.amazonaws.com/KYOTO_RETAIL_S2RKS32.92-11-21-4_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
