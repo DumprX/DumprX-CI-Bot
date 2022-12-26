@@ -1,1 +1,1 @@
-https://bigota.d.miui.com/V13.0.4.0.SJUMIXM/vayu_global_images_V13.0.4.0.SJUMIXM_20220413.0000.00_12.0_global_4e87d37955.tgz
+https://rsd-prod-secure.s3.amazonaws.com/KYOTO_RETAIL_S2RKS32.92-11-21-4_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip?AWSAccessKeyId=AKIAIMVHGYWJWQTJEM5Q&Expires=1669802471&Signature=eFhUsR%2FAX4cZXaNctrcgZeEXtDQ%3D
