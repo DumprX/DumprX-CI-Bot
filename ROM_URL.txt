@@ -1,1 +1,1 @@
-https://rsd-prod-secure.s3.amazonaws.com/KYOTO_RETAIL_S2RKS32.92-11-21-4_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
+https://github.com/realme-trinket-organization/releases/releases/download/AEX-v8.3-RMX1911-20210708/AospExtended-v8.3-RMX1911-UNOFFICIAL-20210708-2201.zip
