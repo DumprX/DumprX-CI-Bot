@@ -1,1 +1,1 @@
-https://rsd-prod-secure.s3.amazonaws.com/ONELI_CN_S3SL32.16-72-24_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip?AWSAccessKeyId=AKIAIMVHGYWJWQTJEM5Q&Expires=1673431238&Signature=IV%2B%2FGf518TEpE5Ub3ptUv0JTWN8%3D
+https://in-sysup-txdl.vivoglobal.com/upgrade/official/officialFiles/PD1732F_EX_A_2.70.12-update-full_1665303965.zip
