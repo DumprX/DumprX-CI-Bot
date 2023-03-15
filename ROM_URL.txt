@@ -1,1 +1,1 @@
-https://bigota.d.miui.com/V12.5.4.0.RJWINXM/curtana_in_global_images_V12.5.4.0.RJWINXM_20220129.0000.00_11.0_in_85f43863e5.tgz
+https://mirrors.lolinet.com/firmware/motorola/berlin/official/RETBR/XT2143-1_BERLIN_RETBR_12_S1RGS32.53-18-22-15_subsidy-DEFAULT_regulatory-DEFAULT_cid50_CFC.xml.zip
