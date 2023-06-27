@@ -9,7 +9,7 @@ Dump Android ROMs/Firmwares Online, via a PR, for free!
 ## Notes ##
 - If the Dump is Successful, you'll see a post on our Telegram Channel, [@DumprXDumps](https://t.me/DumprXDumps)
 - If the Dump Fails, you'll not see the post, and you'll have to check the Logs in Cirrus CI Website
-- The Dumps are Pushed to [https://gitlab.com/Android-Dumps](https://gitlab.com/Android-Dumps
+- The Dumps are Pushed to [https://www.opencode.net/DumprX](https://www.opencode.net/DumprX
 )
 - Since this is Using only 2 Cores, Cirrus Waiting Time is Very less, Usually not more than a minute or two.
 - This Script use [DumprX](https://github.com/DumprX/DumprX.git) to Dump the ROM/Firmware.
