@@ -19,7 +19,7 @@ task:
   auto_cancellation: $CIRRUS_BRANCH == 'autocancel'
   timeout_in: 120m
   container:
-      image: ghcr.io/sushrut1101/docker:arch
+      image: ghcr.io/dumprx/docker:latest
       cpu: 4
       memory: 16G
 
