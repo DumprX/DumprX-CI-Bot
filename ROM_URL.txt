@@ -1,1 +1,1 @@
-https://bigota.d.miui.com/V12.5.4.0.RJWINXM/curtana_in_global_images_V12.5.4.0.RJWINXM_20220129.0000.00_11.0_in_85f43863e5.tgz
+https://cdn-ota.azureedge.net/OS1.0.4.0.UNLMIXM/duchamp_global_images_OS1.0.4.0.UNLMIXM_20240108.0000.00_14.0_global_0dc6b38f48.tgz
